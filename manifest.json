@@ -1,0 +1,10 @@
+{
+  "name": "Fast Search",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Allows you to visit some websites faster, than just simple googling it!",
+  "background": {
+    "service_worker": "serviceWorker.js"
+  },
+  "omnibox": {"keyword" : "!"}
+}
